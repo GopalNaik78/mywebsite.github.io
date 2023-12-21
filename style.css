@@ -1,0 +1,423 @@
+body{
+    box-sizing: border-box;
+    display: block;
+    margin: 0;
+    /* overflow: hidden; */
+  }
+  .sidebar{
+    width: 20%;
+    position: fixed;
+    background-color: rgb(21, 20, 20);
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+  }
+  .mainBody{
+    margin-left: 20%;
+  }
+  #home{
+    position: relative;
+  }
+
+  .social,.profileImg {
+    width: 100%;
+  }
+  .profileImg{
+    display: flex;
+    justify-content: center;
+    margin: .4rem 0 .3rem 0;
+    
+  }
+  .socialLink{
+    text-decoration: none;
+    color: white;
+  }
+  .socialLink:hover{
+    color: rgb(0, 153, 255);
+  }
+  .name{
+    padding-bottom: 0.3rem;
+  }
+  .social{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .icon{
+    height: 30px;
+    width: 30px;
+    background-color:rgb(53, 53, 53) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+    .rounded-circle{
+      width: 100px;
+      height: 100px;
+      object-fit:fill;
+      border: 5px solid rgb(53, 53, 53);
+    }
+    .profile{
+      display: grid;
+      grid-template-rows: auto;
+    }
+    .background-img{
+      height:100vh;
+      width: 100%;
+      object-fit:cover;
+      
+    }
+    button {
+      position: absolute;
+      padding: 10px 20px;
+      border: none;
+      text-decoration: none;
+      display: inline-block;
+      cursor: pointer;
+      font-size: 16px;
+      margin: 5px;
+      border-radius: 10px;
+      text-shadow:1px 1px 2px black; 
+      box-shadow: 1px 1px 2px black;
+    }
+
+    /* Styling the "Hire Me" button */
+    .hire-button {
+      background-color:  #ff0000 ;/* Green */
+      color: white;
+      font-weight: 500;
+      bottom: 20%;
+      left: 15%;
+    }
+
+    /* Styling the "Download Resume" button */
+    .download-button {
+      background-color: #2076ee; /* Blue */
+      color: white;
+      bottom: 20%;
+      right: 15%;
+      font-weight: 500;
+    }
+    .download-button:hover {
+        outline-color: transparent;
+        outline-style:solid;
+        box-shadow: 0 0 4px 3px #ffffff;
+    }
+    .hire-button:hover {
+        outline-color: transparent;
+        outline-style:solid;
+        box-shadow: 0 0 4px 3px #ffffff;
+    }
+    ul{
+      list-style: none;
+      padding-left: 0;
+    }
+    .pageList li{
+      color: rgb(152, 152, 152);
+      margin: 1.8rem 0 1.8rem 0;
+      position: relative;
+      white-space: nowrap;
+    }
+    .pageList li:hover{
+      color: #ffffff;
+    }
+    .pageList li a i {
+      color: rgb(152, 152, 152);
+      transition: color 0.3s; 
+    }
+
+    .pageList li:hover a i {
+      color: rgb(18, 148, 255);
+    }
+    .subTitle::after {
+      margin-top: 0.8rem;
+      content: "";
+      /* position: absolute; */
+      display: block;
+      width: 50px;
+      height: 3px;
+      background: #149ddd;
+      bottom: 0;
+      left: 0;
+    }
+    .subSection{
+      padding: 2rem 1.5rem 2rem 1.5rem;
+    }
+    .space1{
+      margin-top: 0.2rem;
+    }
+    #about li{
+      margin: 0.2rem 0 1rem 1.5rem;
+
+    }
+    #about img{
+      margin-left: 1rem;
+      border: 3px solid rgb(30, 80, 121);
+      box-shadow: 1px 1px 5px;
+    }
+    #skills{
+      background-color: #f2faff;
+    }
+    
+    .skill-container {
+      width: 100%;
+      background-color: #ddd;
+      margin:0.5rem 0 1rem 0;
+    }
+
+    .skillBar {
+      text-align: right;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      color: white;
+      background-color: #149ddd;
+    }
+    .val{
+      float: right;
+    }
+
+
+    .java {width: 80%; }
+    .html {width: 95%; }
+    .css {width: 75%;}
+    .js {width: 40%;}
+    .python {width: 40%; }
+    .iot {width: 70%; }
+    .dsa {width: 70%;}
+    .cn {width: 70%;}
+    .sql {width: 60%; }
+    .dbms {width: 65%; }
+    .aws {width: 60%;}
+    .esd {width: 80%;}
+    .photograph {width: 90%;}
+    .ps {width: 50%;}
+
+    .resumeItem::before {
+      content: "";
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      border-radius: 50px;
+      left: -9px;
+      top: 5px;
+      background: #fff;
+      border: 2px solid #1f5297;
+    }
+    .resumeItem{
+      position: relative;
+      margin-top: -2px; 
+      border-left: 2px solid #1f5297;
+      padding: 0 0 1rem 1rem;
+    }
+    .resumeItem ul{
+      margin:0;
+    }
+    .resumeItem li{
+      margin-left: 1rem;
+      font-size: 10pt;
+      list-style:disc;
+    }
+    h6{
+      margin-bottom: 0;
+    }
+    .date{
+      font-size: small;
+      padding: 2px;
+      font-weight: 500;
+      background-color: #c7ddff;
+    }
+    /* .Pro2Img{ */
+      /* display: flex; */
+      /* float: right; */
+      /* width: 100%;
+      align-items: center;
+      justify-content: center; */
+    /* } */
+    .pro2{
+      width: 50%;
+      float: right;
+    }
+    #Badge{
+      background-color: #d2eefe;
+    }
+
+    .cbedge{
+      width: 120px;
+      height: 120px;
+      /* float: right; */
+    }
+    .right{
+      float: right;
+    }
+    .left{
+      float: left;
+      margin-right: 1rem;
+    }
+
+    .allBadge{
+      margin-top: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;  
+      /* justify-content: center; */
+    }
+    .badgeBox{
+      width: 90%;
+      background-color: #fff;
+      padding: 1rem;
+      border-radius: 1rem;
+      box-shadow: -2px 2px 3px;
+      margin: 0.5rem 0 0.5rem 0;
+      font-size: 9pt;
+    }
+    .badgeBox:nth-child(even) {
+      box-shadow: 2px 2px 3px;
+    }
+    .noMarg{
+      margin-bottom: 0 ;
+    }
+    .BSkill{
+      font-size: small;
+      font-weight: 500;
+    }
+    .BSkillBox{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .BSkills{
+      color: #fff;
+      padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+      border-radius: 1rem;
+      background-color: #149ddd;
+      margin: 0.4rem;
+    }
+    .BadgeLink{
+      color: black;
+      text-decoration: none;
+    }
+    .BadgeLink:hover{
+      text-decoration: underline;
+    }
+    .imgs1, .imgs2{
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid black;
+    }
+    .carousel-imgs1 img{
+      width: 180px;
+      height: max-content;
+    }
+    .carousel-imgs2 img{
+      width: 300px;
+      /* height: max-content; */
+    }
+    .carousel-imgs1,.carousel-imgs2 {
+      margin: 5px; /* Add margin for spacing between images */
+      border-radius: 5px;
+
+    }
+
+
+    .contects{
+      display: flex;
+      justify-content: space-around;
+    }
+    .contectLink{
+      text-decoration: none;
+      color: black;
+    }
+
+    .carousel-imgs1,.carousel-imgs2,.pro2 {
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    /* The Modal (background) */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      padding-top: 50px;
+      left: 0;
+      top: 0;
+      height: 100%;
+
+      width:100%;
+      background-color: rgb(0, 0, 0);
+      background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    .modal-content {
+      margin: auto;
+      display: block;
+      max-width: 100%; 
+      height: auto; 
+    }
+
+
+    .modal-content,
+    #caption {
+      -webkit-animation-name: zoom;
+      -webkit-animation-duration: 0.6s;
+      animation-name: zoom;
+      animation-duration: 0.6s;
+    }
+
+    @-webkit-keyframes zoom {
+      from {
+        -webkit-transform: scale(0);
+      }
+
+      to {
+        -webkit-transform: scale(1);
+      }
+    }
+
+    @keyframes zoom {
+      from {
+        transform: scale(0);
+      }
+
+      to {
+        transform: scale(1);
+      }
+    }
+
+    .close {
+      position: absolute;
+      top: 15px;
+      right: 35px;
+      color: #f1f1f1;
+      font-size: 40px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: #bbb;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    @media only screen and (max-width: 700px) {
+      .modal-content {
+        height: 100vh;
+      }
+    }
+    .appImg{
+      height: 120px;
+      width: auto;
+    }
+    #contect{
+      background-color:#e3f3ff ;
+    }
+    #Photography{
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .photoBlock{
+      padding: 0 1.5rem 0 1.5rem;
+    }
