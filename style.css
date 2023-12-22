@@ -451,6 +451,7 @@ body{
   .sidebar {
     width: 100%;
     height: 100vh;
+    /* top: 0; */
     position: static;
     background-color: rgb(21, 20, 20);
     text-align: center;
@@ -485,6 +486,10 @@ body{
   }
   .flickity-button {
     display: none;
+  }
+  .profileImg{
+    margin-top: 0;
+    padding-top: .3rem;
   }
   /* Add more mobile-specific styles as needed */
 }
