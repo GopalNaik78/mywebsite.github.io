@@ -22,9 +22,7 @@ body{
   .sidebar{
     width: 20%;
     position: fixed;
-    /* background-color: rgb(21, 20, 20); */
-    background-color: rgb(232, 35, 35);
-
+    background-color: rgb(21, 20, 20);
     height: 100vh;
     color: #fff;
     text-align: center;
