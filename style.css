@@ -4,6 +4,21 @@ body{
     margin: 0;
     /* overflow: hidden; */
   }
+  h1{
+    font-size:3.5rem;
+  }
+  p{
+    font-size: 1.4rem;
+  }
+  li{
+    font-size: 1.4rem;
+  }
+  .row{
+    font-size: 1.3rem;
+  }
+  .resumeItem ul li{
+    font-size: 1.2rem;
+  }
   .sidebar{
     width: 20%;
     position: fixed;
@@ -42,8 +57,8 @@ body{
     justify-content: space-evenly;
   }
   .icon{
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
     background-color:rgb(53, 53, 53) ;
     display: flex;
     align-items: center;
@@ -51,12 +66,14 @@ body{
     border-radius: 50%;
   }
   .fa{
-    font-size:20px;
+    font-size:30px;
   }
-
+  .scrollto{
+    font-size:25px;
+  }
     .rounded-circle{
-      width: 100px;
-      height: 100px;
+      width: 150px;
+      height: 150px;
       object-fit:fill;
       border: 5px solid rgb(53, 53, 53);
     }
@@ -77,7 +94,7 @@ body{
       text-decoration: none;
       display: inline-block;
       cursor: pointer;
-      font-size: 16px;
+      font-size: 1.5rem;
       margin: 5px;
       border-radius: 10px;
       text-shadow:1px 1px 2px black; 
@@ -117,7 +134,7 @@ body{
     }
     .pageList li{
       color: rgb(152, 152, 152);
-      margin: 1.8rem 0 1.8rem 0;
+      margin: 2rem 0 2rem 0;
       position: relative;
       white-space: nowrap;
     }
@@ -137,8 +154,8 @@ body{
       content: "";
       /* position: absolute; */
       display: block;
-      width: 50px;
-      height: 3px;
+      width: 100px;
+      height: 6px;
       background: #149ddd;
       bottom: 0;
       left: 0;
@@ -147,7 +164,7 @@ body{
       padding: 2rem 1.5rem 2rem 1.5rem;
     }
     .space1{
-      margin-top: 0.2rem;
+      margin-top: 0.3rem;
     }
     #about li{
       margin: 0.2rem 0 1rem 1.5rem;
@@ -170,8 +187,8 @@ body{
 
     .skillBar {
       text-align: right;
-      padding-top: 5px;
-      padding-bottom: 5px;
+      padding-top: 7px;
+      padding-bottom: 7px;
       color: white;
       background-color: #149ddd;
     }
@@ -219,12 +236,13 @@ body{
       margin-left: 1rem;
       font-size: 10pt;
       list-style:disc;
+      font-style:oblique;
     }
-    h6{
-      margin-bottom: 0;
+    h5{
+      margin: 0.7rem 0 0 0;
     }
     .date{
-      font-size: small;
+      font-size:medium;
       padding: 2px;
       font-weight: 500;
       background-color: #c7ddff;
@@ -245,8 +263,8 @@ body{
     }
 
     .cbedge{
-      width: 120px;
-      height: 120px;
+      width: 150px;
+      height: 150px;
       /* float: right; */
     }
     .right{
@@ -278,12 +296,14 @@ body{
     }
     .noMarg{
       margin-bottom: 0 ;
+      font-size: 1.3rem;
     }
     .BSkill{
-      font-size: small;
+      font-size: medium;
       font-weight: 500;
     }
     .BSkillBox{
+      font-size: 1.2rem;
       display: flex;
       flex-wrap: wrap;
     }
@@ -307,11 +327,11 @@ body{
       border: 1px solid black;
     }
     .carousel-imgs1 img{
-      width: 180px;
+      width: 250px;
       height: max-content;
     }
     .carousel-imgs2 img{
-      width: 300px;
+      width: 350px;
       /* height: max-content; */
     }
     .carousel-imgs1,.carousel-imgs2 {
@@ -326,6 +346,7 @@ body{
       justify-content: space-around;
     }
     .contectLink{
+      font-size: 1.4rem;
       text-decoration: none;
       color: black;
     }
