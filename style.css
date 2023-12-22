@@ -445,3 +445,31 @@ body{
     .photoBlock{
       padding: 0 1.5rem 0 1.5rem;
     }
+    /* Add this at the end of your existing CSS file */
+@media only screen and (max-width: 600px) {
+  /* Mobile-specific styles */
+  .sidebar {
+    width: 100%;
+    position: static;
+    background-color: rgb(21, 20, 20);
+    text-align: left;
+  }
+
+  .mainBody {
+    margin-left: 0;
+  }
+
+  .name {
+    padding-bottom: 0.2rem;
+  }
+
+  .rounded-circle {
+    width: 120px;
+    height: 120px;
+    border: 5px solid rgb(53, 53, 53);
+  }
+
+  /* Add more mobile-specific styles as needed */
+}
+
+    
