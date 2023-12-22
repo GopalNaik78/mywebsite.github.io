@@ -450,9 +450,10 @@ body{
   /* Mobile-specific styles */
   .sidebar {
     width: 100%;
+    height: 100vh;
     position: static;
     background-color: rgb(21, 20, 20);
-    text-align: left;
+    text-align: center;
   }
 
   .mainBody {
@@ -468,7 +469,19 @@ body{
     height: 120px;
     border: 5px solid rgb(53, 53, 53);
   }
+  .contects{
+    flex-direction: column;
 
+  }
+  .contectLink{
+    padding: 1rem 0 1rem 0;
+  }
+  .BSkillBox, .BSkill{
+    display: none;
+  }
+  .aboutImg{
+    margin: 2rem;
+  }
   /* Add more mobile-specific styles as needed */
 }
 
