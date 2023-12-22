@@ -57,8 +57,8 @@ body{
     justify-content: space-evenly;
   }
   .icon{
-    height: 50px;
-    width: 50px;
+    height: 48px;
+    width: 48px;
     background-color:rgb(53, 53, 53) ;
     display: flex;
     align-items: center;
@@ -66,16 +66,16 @@ body{
     border-radius: 50%;
   }
   .fa{
-    font-size:26px;
+    font-size:28px;
   }
   .scrollto{
     font-size:25px;
   }
     .rounded-circle{
-      width: 150px;
-      height: 150px;
+      width: 170px;
+      height: 170px;
       object-fit:fill;
-      border: 5px solid rgb(53, 53, 53);
+      border: 8px solid rgb(53, 53, 53);
     }
     .profile{
       display: grid;
@@ -98,7 +98,7 @@ body{
       margin: 5px;
       border-radius: 10px;
       text-shadow:1px 1px 2px black; 
-      box-shadow: 1px 1px 2px black;
+      box-shadow: 5px 5px 1px black;
     }
 
     /* Styling the "Hire Me" button */
@@ -106,16 +106,17 @@ body{
       background-color:  #ff0000 ;/* Green */
       color: white;
       font-weight: 500;
-      bottom: 20%;
+      top: 18%;
       left: 15%;
     }
 
     /* Styling the "Download Resume" button */
     .download-button {
-      background-color: #2076ee; /* Blue */
+      background-color: #2076ee; 
+      /* background-color:  #cfcf17; */
       color: white;
       bottom: 20%;
-      right: 15%;
+      right: 12%;
       font-weight: 500;
     }
     .download-button:hover {
