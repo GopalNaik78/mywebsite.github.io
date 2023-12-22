@@ -376,8 +376,8 @@ body{
     .modal-content {
       margin: auto;
       display: block;
-      max-width: 100%; 
-      height: auto; 
+      max-width: 80%; 
+      height: 80%; 
     }
 
 
