@@ -480,6 +480,7 @@ body{
     display: none;
   }
   .aboutImg{
+    width: 80% ;
     margin: 2rem;
   }
   .flickity-button {
