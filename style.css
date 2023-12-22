@@ -42,8 +42,8 @@ body{
     justify-content: space-evenly;
   }
   .icon{
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     background-color:rgb(53, 53, 53) ;
     display: flex;
     align-items: center;
@@ -51,7 +51,7 @@ body{
     border-radius: 50%;
   }
   .fa{
-    font-size:40px;
+    font-size:20px;
   }
 
     .rounded-circle{
