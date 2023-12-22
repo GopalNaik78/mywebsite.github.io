@@ -414,11 +414,10 @@
         img.onclick = function () {
           modal.style.display = "block";
           modalImg.src = this.src;
-          captionText.innerHTML = this.alt;
 
           var aspectRatio = this.naturalWidth / this.naturalHeight;
-          var maxWidth = window.innerWidth * .3; 
-          var maxHeight = window.innerHeight * .3; 
+          var maxWidth = window.innerWidth * .9; 
+          var maxHeight = window.innerHeight * .9; 
           var widthByHeight = maxHeight * aspectRatio;
           
           if (widthByHeight > maxWidth) {
