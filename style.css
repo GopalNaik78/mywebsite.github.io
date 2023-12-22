@@ -482,6 +482,9 @@ body{
   .aboutImg{
     margin: 2rem;
   }
+  .flickity-button {
+    display: none;
+  }
   /* Add more mobile-specific styles as needed */
 }
 
