@@ -501,6 +501,23 @@ body{
     right: 8%;
   }
   /* Add more mobile-specific styles as needed */
+  .modal-content {
+    max-width: 100%; /* Adjust the maximum width of the modal content for mobile */
+    height: 100vh;
+  }
+
+  .carousel-imgs1 img,
+  .carousel-imgs2 img,
+  .pro2 img {
+    width: 100%; /* Make sure images fill the entire width of the modal */
+    height: auto; /* Maintain the aspect ratio */
+  }
+
+  .close {
+    top: 10px; /* Adjust the position of the close button for mobile */
+    right: 15px;
+    font-size: 30px;
+  }
 }
 
     
