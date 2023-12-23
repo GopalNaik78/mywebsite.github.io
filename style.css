@@ -490,6 +490,16 @@ body{
     margin-top: 0;
     padding-top: .3rem;
   }
+  .hire-button{
+    top:auto;
+    left: auto;
+    bottom: 22%;
+    right: 18%;
+  }
+  .download-button{
+    bottom: 10%;
+    right: 8%;
+  }
   /* Add more mobile-specific styles as needed */
 }
 
