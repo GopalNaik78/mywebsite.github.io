@@ -57,8 +57,8 @@ body{
     justify-content: space-evenly;
   }
   .icon{
-    height: 48px;
-    width: 48px;
+    height: 45px;
+    width: 45px;
     background-color:rgb(53, 53, 53) ;
     display: flex;
     align-items: center;
