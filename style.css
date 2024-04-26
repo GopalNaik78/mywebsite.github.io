@@ -259,7 +259,7 @@ body{
       width: 50%;
       float: right;
     }
-    #Badge{
+    #Certificate, #Photography{
       background-color: #d2eefe;
     }
 
@@ -322,7 +322,7 @@ body{
     .BadgeLink:hover{
       text-decoration: underline;
     }
-    .imgs1, .imgs2{
+    .imgs0,.imgs1, .imgs2{
       width: 100%;
       padding: 0.5rem;
       border: 1px solid black;
@@ -335,12 +335,19 @@ body{
       width: 350px;
       /* height: max-content; */
     }
-    .carousel-imgs1,.carousel-imgs2 {
+.carousel-imgs0 img{
+  width: 600px;
+  /* height: max-content; */
+}
+    .carousel-imgs1,.carousel-imgs2,.carousel-imgs0 {
       margin: 5px; /* Add margin for spacing between images */
       border-radius: 5px;
 
     }
-
+    .carousel-imgs0 {
+      margin: 5px 30px 5px 30px; /* Add margin for spacing between images */
+      border-radius: 5px;
+    }
 
     .contects{
       display: flex;
@@ -352,7 +359,7 @@ body{
       color: black;
     }
 
-    .carousel-imgs1,.carousel-imgs2,.pro2 {
+    .carousel-imgs1,.carousel-imgs2,.carousel-imgs0,.pro2 {
       border-radius: 5px;
       cursor: pointer;
       transition: 0.3s;
@@ -508,6 +515,7 @@ body{
 
   .carousel-imgs1 img,
   .carousel-imgs2 img,
+  .carousel-imgs0 img,
   .pro2 img {
     width: 100%; /* Make sure images fill the entire width of the modal */
     height: auto; /* Maintain the aspect ratio */
