@@ -171,6 +171,7 @@ body{
       margin: 0.2rem 0 1rem 1.5rem;
 
     }
+
     #about img{
       margin-left: 1rem;
       border: 3px solid rgb(30, 80, 121);
@@ -259,10 +260,24 @@ body{
       width: 50%;
       float: right;
     }
-    #Certificate, #Photography{
+    #Badge, #resume{
       background-color: #d2eefe;
     }
-
+    #eduInt{
+      background-color: white;
+      padding: 10px 10px 20px 10px;
+      border-radius: 10px;
+    }
+    .bl{
+      background-color: #f2faff;
+      border-radius: 0 10px 10px 0;
+    }
+    .pro_head{
+      margin-bottom: 15px ;
+    }
+    .bottom-space{
+      padding-bottom: 10px;
+    }
     .cbedge{
       width: 150px;
       height: 150px;
@@ -327,6 +342,7 @@ body{
       padding: 0.5rem;
       border: 1px solid black;
     }
+
     .carousel-imgs1 img{
       width: 250px;
       height: max-content;
@@ -337,6 +353,7 @@ body{
     }
 .carousel-imgs0 img{
   width: 600px;
+  box-shadow: 7px 7px 7px #171f1c;
   /* height: max-content; */
 }
     .carousel-imgs1,.carousel-imgs2,.carousel-imgs0 {
@@ -444,7 +461,7 @@ body{
     #contect{
       background-color:#e3f3ff ;
     }
-    #Photography{
+    #Photography, #Certificate{
       padding-left: 0;
       padding-right: 0;
     }
