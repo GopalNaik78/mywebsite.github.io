@@ -200,18 +200,18 @@ body{
 
     .java {width: 80%; }
     .html {width: 95%; }
-    .css {width: 75%;}
-    .js {width: 40%;}
-    .python {width: 40%; }
+    .css {width: 80%;}
+    .js {width: 60%;}
+    .python {width: 50%; }
     .iot {width: 70%; }
     .dsa {width: 70%;}
-    .cn {width: 70%;}
-    .sql {width: 60%; }
-    .dbms {width: 65%; }
+    .cn {width: 75%;}
+    .sql {width: 70%; }
+    .dbms {width: 75%; }
     .aws {width: 60%;}
     .esd {width: 80%;}
-    .photograph {width: 90%;}
-    .ps {width: 50%;}
+    .photograph {width: 95%;}
+    .sb {width: 75%;}
 
     .resumeItem::before {
       content: "";
